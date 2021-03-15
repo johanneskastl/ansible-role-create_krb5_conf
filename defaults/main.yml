@@ -1,0 +1,5 @@
+---
+# create_krb5_conf/defaults/main.yml
+
+dns_lookup_realm: 'false'
+dns_lookup_kdc: 'true'
