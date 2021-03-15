@@ -13,7 +13,9 @@ None.
 Role Variables
 --------------
 
-None.
+- `kerberos_realm`: The realm to be used for kerberos.
+- `dns_lookup_realm`: (Default: false) Indicate whether DNS TXT records should be used to determine the Kerberos realm of a host.
+- `dns_lookup_kdc`: (Default: true) Indicate whether DNS SRV records should be used to locate the KDCs and other servers for a realm.
 
 Dependencies
 ------------
