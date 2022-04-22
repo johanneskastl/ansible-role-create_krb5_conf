@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'create_krb5_conf'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'Create a krb5.conf file'
   company: 'B1 Systems GmbH'
