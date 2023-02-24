@@ -27,7 +27,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: 'johanneskastl.create_krb5_conf' }
+         - role: 'johanneskastl.create_krb5_conf'
 
 License
 -------
